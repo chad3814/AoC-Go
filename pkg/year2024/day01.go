@@ -1,7 +1,6 @@
 package year2024
 
 import (
-	"fmt"
 	"math"
 	"slices"
 	"strconv"
@@ -13,8 +12,6 @@ type Day01 struct{}
 func (p Day01) PartA(lines []string) any {
 	var a []int
 	var b []int
-
-	fmt.Println("len:", len(lines))
 
 	for i := 0; i < len(lines); i++ {
 		if lines[i] == "" {
